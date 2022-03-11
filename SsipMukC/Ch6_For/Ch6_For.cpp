@@ -121,49 +121,116 @@ int main()
 	//피보나치 수열: a(0)=1, a(1)=1, a(2)=a(0)+a(1) ->a(n)=a(n-1)+a(n-2)
 	//피보나치용 for문 따로 짝수항합용 for문 따로 준비해야함
 	//n=i, 
-	//int hap = 0;
+	//int hap = 1;
 	//int aN=0;
-	//int aN_2, aN_1;
+	//int aN_2 = 1;
+	//int aN_1=1;
 	//
 	////피보나치용 for문
 	//
-	//for (int i = 0; i <= 7; i++)
+	//for (int i = 3; ; i++)
 	//{
-	//	if (i <2)
+	//	aN = aN_1 + aN_2;
+	//	if (i%2==0)
 	//	{
-	//		aN_2 = 1;
-	//		aN_1 = 1;
+	//		hap += aN;
 	//	}
-	//	else//a(2)
+	//	if (aN > 1000000)
 	//	{
-	//		aN = aN_2 + aN_1;// a(2)=a(1)+(0)-> a(2)=1+1
-	//		aN_2 = aN_1;//a(n)항을 구하면 한칸씩 땡겨야한다.
-	//		aN_1 = aN;//순서를 이렇게 둬야 땡기기전 aN을 알 수 있다.
+	//		cout << hap << endl;
+	//		break;
+	//	}
+	//	aN_2 = aN_1;
+	//	aN_1 = aN;
+	//}
+	//
+	//
+	//int j, fibo, sum;
+	//int fibo_first = 1;
+	//int fibo_second = 1;
+	//
+	//sum = fibo_second;
+	//
+	//for (j = 3; ; j++)
+	//{
+	//	fibo = fibo_first + fibo_second;
+	//
+	//	if (j % 2 == 0)
+	//	{
+	//		sum += fibo;
+	//	}
+	//
+	//	if (fibo > 1000000)
+	//	{
+	//		cout << sum << endl;
+	//		break;
+	//	}
+	//	fibo_first = fibo_second;
+	//	fibo_second = fibo;
+	//}
+
+	//---------------문제 6----------------
+
+	//int a;
+	//int b ;
+	//int c ;
+	//int count = 0;
+	//int hap=0;
+	
+	//}
+		//for (a = 1; a <= 2000; a++)
+		//{
+		//	for (b = 1; b <= 2000; b++)
+		//	{
+		//		for (c = 1; c <= 2000; c++)
+		//		{
+		//			if (a < b && b < c)
+		//			{
+		//				if (a + b + c == 2000)
+		//				{
+		//					hap = a + b + c;
+		//					count++;
+		//					//cout << a << "+" << b << "+" << c << "=" << hap << '\n';
+		//				}
+		//			}
+		//			continue;
+		//		}
+		//	}
+		//}
+		//cout << "총 : "<<count<< " 개" << endl;
+
+	//int a, b, c;
+	//int num = 0;
+	//
+	//for (c = 1; c <= 2000; c++) {
+	//	for (b = c + 1; b > c; b++) {
+	//		a = 2000 - b - c;
+	//		if (a > b && b > c) {
+	//			num++;
+	//		}
+	//		else break;
 	//	}
 	//}
-	//cout << aN << endl;
-
-	int i, fibo, sum;
-	int fibo_first = 1;
-	int fibo_second = 1;
-	
-	sum = fibo_second;
-
-	for (i = 3; ; i++)
-	{
-		fibo = fibo_first + fibo_second;
-
-		if (i % 2 == 0)
-		{
-			sum += fibo;
-		}
-
-		if (fibo > 1000000)
-		{
-			cout << sum << endl;
-			break;
-		}
-		fibo_first = fibo_second;
-		fibo_second = fibo;
-	}
+	//printf("%d", num);
+		
+	//-----------------------------문제 7--------------------------
+	//N을 2로 나눠서 나머지가 0이면 
+	//int N;
+	//int i = 2;
+	//
+	//cout << "수 입력 : ";
+	//cin >> N;//6
+	//while (N != 1) // 3
+	//{
+	//	
+	//	if (N % i == 0)// 6%2=0
+	//	{
+	//		N /= i;// nextN=3;
+	//		cout << i << endl;
+	//	}
+	//	else
+	//	{
+	//		i++;
+	//	}
+	//}
 }
