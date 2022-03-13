@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SsipMukC", "SsipMukC\SsipMukC.vcxproj", "{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch1_Variable", "Ch1_Variable\Ch1_Variable.vcxproj", "{3B33D4DA-866D-400B-8A16-B70C2A33EAB2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch2_Caculate", "Ch2_Caculate\Ch2_Caculate.vcxproj", "{47F5D8E0-A6B4-4651-A6A2-BCE88EBCC74A}"
@@ -27,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch10_Pointer", "Ch10_Pointe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch11_Pointer_And_Array", "Ch11_Pointer_And_Array\Ch11_Pointer_And_Array.vcxproj", "{AFEBE34C-6C26-4BEE-B18D-C5148C6270CF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ch12_Pointer_of_Pointer", "Ch12_Pointer_of_Pointer\Ch12_Pointer_of_Pointer.vcxproj", "{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -35,14 +35,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Debug|x64.ActiveCfg = Debug|x64
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Debug|x64.Build.0 = Debug|x64
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Debug|x86.ActiveCfg = Debug|Win32
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Debug|x86.Build.0 = Debug|Win32
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Release|x64.ActiveCfg = Release|x64
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Release|x64.Build.0 = Release|x64
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Release|x86.ActiveCfg = Release|Win32
-		{8A4EC863-471A-4C7D-B9C0-5D8E20DE9EFB}.Release|x86.Build.0 = Release|Win32
 		{3B33D4DA-866D-400B-8A16-B70C2A33EAB2}.Debug|x64.ActiveCfg = Debug|x64
 		{3B33D4DA-866D-400B-8A16-B70C2A33EAB2}.Debug|x64.Build.0 = Debug|x64
 		{3B33D4DA-866D-400B-8A16-B70C2A33EAB2}.Debug|x86.ActiveCfg = Debug|Win32
@@ -131,6 +123,14 @@ Global
 		{AFEBE34C-6C26-4BEE-B18D-C5148C6270CF}.Release|x64.Build.0 = Release|x64
 		{AFEBE34C-6C26-4BEE-B18D-C5148C6270CF}.Release|x86.ActiveCfg = Release|Win32
 		{AFEBE34C-6C26-4BEE-B18D-C5148C6270CF}.Release|x86.Build.0 = Release|Win32
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Debug|x64.ActiveCfg = Debug|x64
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Debug|x64.Build.0 = Debug|x64
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Debug|x86.Build.0 = Debug|Win32
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Release|x64.ActiveCfg = Release|x64
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Release|x64.Build.0 = Release|x64
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Release|x86.ActiveCfg = Release|Win32
+		{26BF0979-20BB-4D0F-9DD8-532C12D84E4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
